@@ -1,0 +1,119 @@
+/* Estilo para todo el cuerpo de la página */
+body {
+    background-color: #ffffff; /* Blanco de fondo */
+    font-family: 'Roboto', sans-serif; /* Usamos la fuente Roboto */
+    color: #000000; /* Texto en negro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    background-color: #ffcc00;  /* Fondo amarillo */
+    color: #000000; /* Texto en negro */
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700; /* Fuente en negrita */
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #000000; /* Fondo negro */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #ffcc00; /* Texto amarillo */
+    text-decoration: none;
+    font-weight: 500; /* Fuente seminegrita */
+    padding: 10px 20px;
+    font-size: 1.1em; /* Tamaño de letra más grande */
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00; /* Fondo amarillo al pasar el mouse */
+    color: #000000; /* Texto negro */
+}
+
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000000; /* Bordes negros */
+}
+
+th {
+    background-color: #ffcc00; /* Fondo amarillo en encabezados */
+    color: #000000; /* Texto negro */
+    padding: 10px;
+    font-weight: 500; /* Seminegrita para el texto */
+    font-size: 1.1em;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Estilo para botones */
+button, a {
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #000000; /* Texto negro */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500; /* Seminegrita para los botones */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    background-color: #000000; /* Fondo negro al pasar el mouse */
+    color: #ffcc00; /* Texto amarillo */
+}
+
+/* Estilo para los formularios */
+form {
+    background-color: #f2f2f2; /* Fondo claro para los formularios */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    font-weight: 500; /* Seminegrita para los labels */
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+input[type="text"], input[type="date"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif; /* Aplicar Roboto a los inputs */
+}
+
+
